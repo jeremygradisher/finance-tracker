@@ -1,0 +1,3 @@
+== README
+
+Starting here. Let us build a finance tracker app...
