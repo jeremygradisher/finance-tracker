@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.4'
+gem 'rails', '~> 5.0.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
-gem 'stock_quote'
+gem "stock_quote", '~> 3.0.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -32,12 +32,18 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'puma', '~> 3.10'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem "activejob", ">= 5.0.0"
+gem "sprockets", ">= 3.7.2"
+gem "nokogiri", ">= 1.10.4"
+gem "actionpack", ">= 5.0.0"
+gem "actionview", ">= 5.0.0"
+
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.6'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
@@ -51,7 +57,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18'
   gem 'rails_12factor'
 end
 
