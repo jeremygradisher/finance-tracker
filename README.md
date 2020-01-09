@@ -7,4 +7,6 @@ and adding this:
 @user_stock = current_user.user_stocks.where(stock_id: params[:id]).first
 to the def destroy within user_stocks_controller.rb
 
-Rolled through this on 01/08/2020 to update and test. Let's build!
+Rolled through this on 01/08/2020 to update and test. 
+
+You need to have an api key. Not happening. Just leving this for the commits.
