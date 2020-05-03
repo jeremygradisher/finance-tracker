@@ -39,7 +39,7 @@ gem 'puma', '~> 3.12'
 
 gem "activejob", ">= 5.0.0"
 gem "sprockets", ">= 3.7.2"
-gem "nokogiri", ">= 1.10.4"
+gem "nokogiri", ">= 1.10.8"
 gem "actionpack", ">= 5.0.0"
 gem "actionview", ">= 5.0.0"
 

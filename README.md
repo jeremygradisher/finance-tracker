@@ -10,3 +10,4 @@ to the def destroy within user_stocks_controller.rb
 Rolled through this on 01/08/2020 to update and test. 
 
 You need to have an api key. Not happening. Just leving this for the commits.
+#this no longer works because they monetized the stock_quote api
